@@ -1,5 +1,0 @@
-estrategia,fases,teste_limiar_05_auc,teste_limiar_youden_acuracia,teste_limiar_youden_sensibilidade,teste_limiar_youden_especificidade,teste_limiar_youden_precisao,teste_limiar_youden_f1,teste_limiar_youden_acuracia_balanceada
-central,pre,0.5,0.629,0.0,0.957,0.0,0.0,0.478
-central,pre-post_early-post_late,0.62,0.571,0.583,0.565,0.412,0.483,0.574
-maior_area,pre,0.659,0.571,0.75,0.478,0.429,0.545,0.614
-maior_area,pre-post_early-post_late,0.569,0.629,0.083,0.913,0.333,0.133,0.498
