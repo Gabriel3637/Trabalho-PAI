@@ -1,0 +1,54 @@
+{
+  "resumo_treino": {
+    "hiperparametros": {
+      "taxa_aprendizado": 0.0001,
+      "decaimento_pesos": 0.01,
+      "tamanho_lote": 256,
+      "max_epocas": 200,
+      "paciencia": 20
+    },
+    "taxa_dropout": 0.5,
+    "pos_weight": 3.0,
+    "melhor_epoca": 1,
+    "melhor_perda_validacao": 1.132883071899414,
+    "epocas_executadas": 21,
+    "segundos_treino": 0.19,
+    "linhas_treino": 1040,
+    "linhas_validacao": 33,
+    "pacientes_treino": 104,
+    "pacientes_validacao": 33,
+    "familia": "inteira",
+    "configuracao": "A_post_early",
+    "estrategia": 1
+  },
+  "metricas": {
+    "treino": {
+      "pacientes": 104,
+      "limiar": 0.5,
+      "acuracia": 0.49038461538461536,
+      "precisao": 0.2631578947368421,
+      "sensibilidade": 0.5769230769230769,
+      "especificidade": 0.46153846153846156,
+      "f1": 0.3614457831325301,
+      "auc": 0.5152859960552268,
+      "VP": 15,
+      "VN": 36,
+      "FP": 42,
+      "FN": 11
+    },
+    "validacao": {
+      "pacientes": 33,
+      "limiar": 0.5,
+      "acuracia": 0.45454545454545453,
+      "precisao": 0.34782608695652173,
+      "sensibilidade": 0.7272727272727273,
+      "especificidade": 0.3181818181818182,
+      "f1": 0.47058823529411764,
+      "auc": 0.5991735537190084,
+      "VP": 8,
+      "VN": 7,
+      "FP": 15,
+      "FN": 3
+    }
+  }
+}

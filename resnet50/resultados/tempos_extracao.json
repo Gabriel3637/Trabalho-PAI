@@ -1,0 +1,15 @@
+{
+  "segundos_por_particao": {
+    "treino": 919.0,
+    "validacao": 29.9,
+    "teste": 31.9
+  },
+  "configuracoes": [
+    "B_tres_fases",
+    "A_pre",
+    "A_post_early",
+    "A_post_late"
+  ],
+  "percentil_superior": 99.9,
+  "pesos": "IMAGENET1K_V2"
+}

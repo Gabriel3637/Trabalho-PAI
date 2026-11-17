@@ -1,0 +1,21 @@
+# Dataset (grande e com licença própria; o notebook baixa do Zenodo)
+*.nii
+*.nii.gz
+*.tar.gz
+
+# Dados intermediários e pesos completos (o notebook regenera; o enunciado proíbe enviar pesos)
+resultados/caracteristicas/
+resultados/recorte/
+resultados/recortes/
+resultados/pesos/
+*.npy
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
